@@ -1,5 +1,5 @@
-var name="nayeem";
-console.log(name.length);
+var nae="nayeem";
+console.mlog(name.length);
 var school="Pabna Zilla School";
 console.log(school);
 console.log(school.length);
@@ -55,8 +55,32 @@ while(a<=10){
     a++;
 }
 
+//lets create a function do javascript 
 
+function fa(n){
+    var b=1;
+    var fa=1;
+    while(b<=5){
+        fa=fa*b;
+        b++;
+    }
+    return fa;
+}
+var getResult=fa(10);
+console.log(getResult);
 
+//get the value of 0!
+
+function factorialOf(n){
+    if(n==0){
+        return 1;
+    }
+    else{
+        return n*factorialOf(n-1);
+    }
+}
+var answer=factorialOf(0);
+console.log(answer);
   
 
 
